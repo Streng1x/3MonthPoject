@@ -3,9 +3,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Главная</title>
+    <link rel="shortcut icon" href="/3MonthPoject/images/logo.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>gggg</h1>
+    
+    <!-- ХЕДЕР -->
+    <header>
+        <div class="container">
+            <div class="wrapper_of_header">
+                <a href="#">
+                    <img src="/3MonthPoject/images/logo.png" alt="">
+                </a>
+
+                <nav>
+                    <ul class="nav1part">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="/3MonthPoject/History-of-factory/History-of-factory.html">Компания</a></li>
+                        <li><a href="/3MonthPoject/Production/Production.html">Производство</a></li>
+                    </ul>
+
+                    <div class="nav2part">
+                        <div class="dropdown">
+                            <button onclick="toggleDropdown()" class="dropbtn">Продукция <img src="/3MonthPoject/images/array.svg" alt=""></button>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="#">Безалкагольные</a>
+                                <a href="#">Алкагольные</a>
+                            </div>
+                        </div>
+
+                        <div class="number">
+                            <a href="tel:+996702240420">+996 702 240 420</a>
+                        </div>
+                    </div>
+
+                    <ul class="nav3part">
+                        <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="/3MonthPoject/images/instagram.svg" alt=""></a></li>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="/3MonthPoject/images/whatsapp.svg" alt=""></a></li>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="/3MonthPoject/images/telegram.svg" alt=""></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- ХЕДЕР -->
+
+
+
+    <main>
+        <!-- БАННЕР -->
+        <section id="banner" class="banner">
+            <div class="container">
+                <div class="home">
+                    <div class="products_of_home">
+                        <div class="hay"><img src="/3MonthPoject/images/Hay.png" alt=""></div>
+                        <div class="beer"><img src="/3MonthPoject/images/Beer.png" alt=""></div>
+                        <div class="beer_bars"><img src="/3MonthPoject/images/BeerBars.png" alt=""></div>
+                        <div class="grains"><img src="/3MonthPoject/images/Grains.png" alt=""></div>
+                    </div>
+                    <h1>НАШЕ ПИВО - ЭТО ИСКУССТВО В <br> КАЖДОЙ БУТЫЛКЕ</h1>
+                </div>
+            </div>
+        </section>
+        <!-- БАННЕР -->
+
+
+        <!-- ПЕРВАЯ СЕКЦИЯ -->
+        <section class="first_section">
+            <div class="container">
+                <div class="slider">
+                  <button class="prev"><img src="/3MonthPoject/images/Vector1.svg" alt=""></button>
+                
+                    <div class="slider-window">
+                      <div class="slider-track">
+                        <div class="slide">
+                            <img class="Frame_Bars1" src="/3MonthPoject/images/Frame_Bars1.png" alt="">
+                            <h2>БАРС ТЕМНОЕ</h2>
+                            <p>ТЕМНОЕ 4.5%</p>
+                        </div>
+                        <div class="slide">
+                            <img class="Frame_Bars2"  src="/3MonthPoject/images/Frame_Bars2.png" alt="">
+                            <h2>БАРС СВЕТЛОЕ</h2>
+                            <p>СВЕТЛОЕ 4.5%</p>
+                        </div>
+                        <div class="slide">
+                            <img class="Frame_Bars3"  src="/3MonthPoject/images/Frame_Bars3.png" alt="">
+                            <h2>БАРС СВЕТЛОЕ</h2>
+                            <p>СВЕТЛОЕ 4.5%</p>
+                        </div>
+                        <div class="slide">
+                            <img class="Frame_Bars4"  src="/3MonthPoject/images/Frame_Bars4.png" alt="">
+                            <h2>ЗЕЛЁНОЕ</h2>
+                            <p>СВЕТЛОЕ НЕФИЛЬТРОВАННОЕ 4.5%</p>
+                        </div>
+                        <div class="slide">
+                            <img class="Frame_Bars5"  src="/3MonthPoject/images/Frame_Bars5.png" alt="">
+                            <h2>НЕМЕЦКОЕ</h2>
+                            <p>ТЕМНОЕ 4.5%</p>
+                        </div>
+                        <div class="slide">
+                            <img class="Frame_Bars6"  src="/3MonthPoject/images/Frame_Bars6.png" alt="">
+                            <h2>БАРС СВЕТЛОЕ</h2>
+                            <p>СВЕТЛОЕ 4.5%</p>
+                        </div>
+                        <div class="slide">
+                            <img class="Frame_Bars7"  src="/3MonthPoject/images/Frame_Bars7.png" alt="">
+                            <h2>БАРС СВЕТЛОЕ</h2>
+                            <p>СВЕТЛОЕ 4.5%</p>
+                        </div>
+                      </div>
+                    </div>
+              
+                  <button class="next"><img src="/3MonthPoject/images/Vector2.svg" alt=""></button>
+                </div>
+            </div>
+        </section>
+        <!-- ПЕРВАЯ СЕКЦИЯ -->
+
+
+        <!-- ВТОРАЯ СЕКЦИЯ -->
+        <section class="second_section">
+            <div class="container">
+                <div class="second_section_blocks">
+                    <div class="second_section_blocks_up">
+                        <div class="second_section_blocks_up_img">
+                            <img src="/3MonthPoject/images/second_section_up_img1.png" alt="">
+                            <div class="second_section_blocks_up_img2">
+                                <img src="/3MonthPoject/images/second_section_up_img2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="second_section_blocks_up_text">
+                            <h4>О НАС</h4>
+                            <hr>
+                            <p>
+                                <span>Мы команда</span> <br>
+                                истинных пивных энтузиастов, <br> преданных пивоварению. В <br> каждом глотке нашего пива вы <br> ощутите наше стремление к <br> совершенству и любви к качеству.
+                            </p>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="second_section_blocks_down">
+                        <div class="second_section_blocks_down_text">
+                            <hr>
+                            <p>
+                                <span>Пиво “KOLOS”</span> <br>
+                                Качество - во всем <br> Мы создаем продукцию только высшего качества <br> Каждый из нас несет ответственность за свою <br> работу
+                            </p>
+                            <hr>
+                        </div>
+                        <div class="second_section_blocks_down_img">
+                            <img src="/3MonthPoject/images/second_section_down.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ВТОРАЯ СЕКЦИЯ -->
+
+
+        <!-- ТРЕТЬЯ СЕКЦИЯ -->
+        <section class="third_section">
+            <div class="container">
+                <!-- <div class="third_section_blocks">
+                    <h2>Мы в цифрах</h2>
+                    <div class="third_section_blocks_down">
+
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        <!-- ТРЕТЬЯ СЕКЦИЯ -->
+    </main>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="wrapper_of_footer">
+                
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="main.js"></script>
 </body>
 </html>

@@ -3,10 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Предупреждение</title>
+    <link rel="shortcut icon" href="/3MonthPoject/images/logo.png">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/involve');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Involve', sans-serif;
+        }
+
+        body {
+            background-image: url("/3MonthPoject/images/warning18\ \(\).png");
+            background-size: cover;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            color: white;
+            gap: 50px;
+        }
+
+        main h1 {
+            color: #FF0000;
+            font-size: 45px;
+            font-weight: 700;
+        }
+
+        .paragrafs {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        .paragrafs h2 {
+            font-size: 36.78px;
+            font-weight: 700;
+        }
+
+        .paragrafs p {
+            font-size: 19px;
+        }
+
+        .links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .not_18 {
+            font-size: 30px;
+            color: black;
+            font-weight: 700;
+            transition: 0.2s;
+        }
+
+        .not_18:hover {
+            color: rgb(255, 255, 255);
+        }
+
+        .yes_18 {
+            padding: 12px;
+            color: white;
+            background-color: #FF0000;
+            font-size: 30px;
+            font-weight: 700;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+            transition: 0.2s;
+        }
+
+        .yes_18:hover {
+            color: black;
+            background-color: white;
+            text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.8);
+        }
+    </style>
 </head>
 <body>
-    <h1>предупреждение</h1>
-    <a href="home.html">есть 18</a>
+    <main>
+        <h1>18+</h1>
+        <div class="paragrafs">
+            <h2>Для доступа на сайт Вы должны <br> подтвердить, что Вам есть 18 лет.</h2>
+            <p>Сайт содержит информацию для лиц совершеннолетнего возраста. <br> Сведения, размещённые на сайте, не являются рекламой, носят <br> исключительно информационный характер, и предназначены только для <br> личного пользования.</p>
+        </div>
+        <div class="links">
+            <a class="not_18" href="Warning-not-18.html">Мне нет 18 лет.</a>
+            <a class="yes_18" href="home.html">Мне есть 18 лет</a>
+        </div>
+    </main>
 </body>
 </html>
